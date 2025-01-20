@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Csharp-GP.sln"
+    "dotnet.defaultSolution": "CSGP-LV2-2025.sln"
 }
