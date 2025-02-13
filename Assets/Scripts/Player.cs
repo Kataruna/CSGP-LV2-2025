@@ -15,4 +15,9 @@ public class Player : Character
     {
         _input.Player.Attack.performed -= _ => Attack();
     }
+
+    private void Skill()
+    {
+        _skills[0].Use();
+    }
 }

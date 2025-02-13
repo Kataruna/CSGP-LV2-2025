@@ -1,5 +1,6 @@
 using UnityEngine;
-using System.Collections.Generic; // Add this one
+using System.Collections.Generic;
+using NaughtyAttributes; // Add this one
 
 public class Character : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class Character : MonoBehaviour
 
     public List<Character> enemies = new List<Character>();
 
+    public Skill[] _skills;
+
+    [ShowNonSerializedField]
     protected int _health;
 
     private void Awake()
