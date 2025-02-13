@@ -6,6 +6,7 @@ public class ItemSO : ScriptableObject
     public string ItemName;
     [TextArea(3, 10)] public string ItemDescription;
     public Sprite ItemIcon;
+    public GameObject ItemPrefab;
 
     public bool IsStackable = true;
     public int maxStack = 64;
