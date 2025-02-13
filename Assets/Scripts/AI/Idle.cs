@@ -32,7 +32,7 @@ public class Idle : State
         }
 
 
-        base.Update();
+        // base.Update();
     }
 
     public override void Exit()
