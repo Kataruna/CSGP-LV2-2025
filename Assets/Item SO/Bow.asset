@@ -15,6 +15,7 @@ MonoBehaviour:
   ItemName: Bow
   ItemDescription: Bow is a bow.
   ItemIcon: {fileID: 21300000, guid: 7c6e1b667387b6e439d9ac0aaa0584fb, type: 3}
+  ItemPrefab: {fileID: 2281054740445743867, guid: c8047cd89ee69714094866e868e12b01, type: 3}
   IsStackable: 1
   maxStack: 64
-  Type: 3
+  Type: 0
